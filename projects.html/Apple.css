@@ -15,6 +15,7 @@ body{
 .pimg1{
     background-image:url(img1.jpg);
     min-height: 100%; 
+    
 }
  
 .pimg2{
@@ -40,7 +41,13 @@ body{
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
+     padding: 50px;
+     animation-name: Kishore;
+     animation-duration: 10s;
+     animation-timing-function: ease;
+     animation-iteration-count: infinite;
    }
+   
 
 .mad{
     position: absolute;
@@ -82,6 +89,21 @@ body{
     text-align: center;
 }
 
+@keyframes Kishore {
+
+    0%{transform: scale(1);}
+
+    20%{transform: scale(1.05);}
+
+    40%{transform: scale(1);}
+
+    60%{transform: scale(1.05);}
+
+    80%{transform: scale(1);}
+
+    100%{transform: scale(1.05);}
+    
+}
  
 
 
