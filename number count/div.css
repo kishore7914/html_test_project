@@ -6,7 +6,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 250%;
+  font-size: 450%;
 }
 #main{
   margin-top: 15%;
@@ -19,7 +19,7 @@ body{
   height: 30vh;
 }
 button{
-  font-size: 40px;
+  font-size: 90px;
   border-radius: 10px;
   background-color: rgb(218, 119, 14);
   color: rgb(8, 134, 8);
