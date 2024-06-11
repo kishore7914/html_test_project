@@ -13,7 +13,7 @@ btnIncrement.addEventListener('click', function inc()
   if(curValue>20)
     {
         curValue=0;
-        alert("max 20 only allowed")
+        alert("max 20 is available")
     }
     if(curValue%2==0){
         document.getElementById('odd').hidden=true;
