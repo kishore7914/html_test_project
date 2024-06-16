@@ -6,11 +6,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 450%;
+  font-size: 100%;
 }
 #main{
   margin-top: 15%;
-  padding: 20px;
+  padding: 25px;
   border-radius: 35px;
   background-color: antiquewhite;
   width: max-content;
@@ -19,7 +19,7 @@ body{
   height: 30vh;
 }
 button{
-  font-size: 90px;
+  font-size: 20px;
   border-radius: 10px;
   background-color: rgb(218, 119, 14);
   color: rgb(8, 134, 8);
